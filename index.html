@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rudra - Personal Website</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to bottom right, #ffafbd, #ffc3a0, #d4fc79, #96e6a1, #89f7fe, #66a6ff);
+      color: #333;
+    }
+    header {
+      background: none;
+      text-align: center;
+      padding: 3rem 1rem 2rem;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin: 0;
+      color: white;
+    }
+    header p {
+      font-size: 1.2rem;
+      color: white;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      background-color: rgba(255, 255, 255, 0.1);
+      padding: 1rem;
+      flex-wrap: wrap;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    .about, .projects, .services, .gallery, .testimonials, .contact {
+      background-color: rgba(255, 255, 255, 0.85);
+      border-radius: 10px;
+      margin-bottom: 2rem;
+      padding: 1.5rem;
+    }
+    .card {
+      background: white;
+      padding: 1rem;
+      border-radius: 8px;
+      margin: 0.5rem 0;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    .gallery img {
+      width: 100%;
+      max-width: 300px;
+      margin-right: 1rem;
+      border-radius: 10px;
+    }
+    .footer {
+      text-align: center;
+      padding: 1rem;
+      color: white;
+      background: none;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Rudra</h1>
+    <p>Welcome to my colorful personal page!</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#services">Services</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#testimonials">Testimonials</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>Hi! I’m Rudra, I’m passionate about technology, design, and creating fun experiences on the web. This site is my digital playground to share who I am and what I do.</p>
+  </section>
+
+  <section id="projects" class="projects">
+    <h2>Projects</h2>
+    <div class="card">
+      <strong>Cool Project 1</strong>
+      <p>A web app that helps you stay organized and productive.</p>
+    </div>
+    <div class="card">
+      <strong>Creative Tool</strong>
+      <p>Design tools for creatives to express themselves freely.</p>
+    </div>
+  </section>
+
+  <section id="services" class="services">
+    <h2>Services</h2>
+    <div class="card">
+      <strong>Web Design</strong>
+      <p>Beautiful, responsive websites tailored to your brand.</p>
+    </div>
+    <div class="card">
+      <strong>Consulting</strong>
+      <p>One-on-one sessions to help kickstart your online presence.</p>
+    </div>
+  </section>
+
+  <section id="gallery" class="gallery">
+    <h2>Gallery</h2>
+    <img src="https://via.placeholder.com/300x200?text=Photo+1" alt="Photo 1">
+    <img src="https://via.placeholder.com/300x200?text=Photo+2" alt="Photo 2">
+  </section>
+
+  <section id="testimonials" class="testimonials">
+    <h2>Testimonials</h2>
+    <div class="card">
+      <p>"Rudra is amazing to work with! Talented and reliable."</p>
+      <strong>— Client A</strong>
+    </div>
+    <div class="card">
+      <p>"Super creative and delivers on time. Highly recommend!"</p>
+      <strong>— Client B</strong>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <p><strong>📧 Email:</strong> <a href="mailto:rudra@example.com">rudra@example.com</a></p>
+    <p><strong>📱 Instagram:</strong> <a href="https://instagram.com/rudra" target="_blank">@rudra</a></p>
+  </section>
+
+  <div class="footer">
+    <p>&copy; 2025 Rudra | Built with ❤️</p>
+  </div>
+
+</body>
+</html>
